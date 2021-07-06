@@ -50,8 +50,20 @@ p{
     color: #262626;
     font-size: 16px;   
 }
+#p{
+    padding: 20px 5px 30px 5px;
+}
 ul{
     padding: 10px 20px 30px;
+}
+.discover-btn{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: white;
+    background-image: linear-gradient(45deg,#262626, #141414);
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
 }
 .btn{
     text-decoration: none;
@@ -65,7 +77,7 @@ ul{
 .black-heading{
     color: #262626;
     text-align: center;
-    padding: 100px 30px 80px 30px;
+    padding: 50px 30px 80px 30px;
 }
 #black-header2{
     margin-bottom: 80px;
@@ -114,7 +126,7 @@ img.align-self {
     border-radius: 50px;
     font-weight: 700;
 }
-footer{
+.footer{
     text-align: center;
     background-color: #262626;
     padding: 30px 30px 25px 30px;
@@ -124,6 +136,7 @@ footer{
     margin: 150px;
     border: 2px solid rgb(225, 226, 228);
     border-radius: 8px;
+    
 }
 .counter-column{
     width: 33.33%;
@@ -133,4 +146,24 @@ footer{
 }
 .icon{
     width: 30%;
+}
+.offer{
+    text-align: center;
+    margin: 80px;
+    border-radius: 5px;
+    margin-top: -0px;
+    padding: 60px 60px 100px 60px;
+    background-image: linear-gradient(#f57906, #f9c011);
+    box-shadow: 10px 10px 50px rgb(187, 196, 209);
+}
+#offer{
+    color:#262626;
+    font-size: 100px;
+    line-height: 0.05em;
+}
+.counter-backgroung{
+    background-image: url(images/food-bg-2.png);
+    background-repeat: no-repeat; 
+    background-position: right;
+    padding: 0px 20px 60px 20px;
 }
