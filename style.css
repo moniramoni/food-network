@@ -2,13 +2,15 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
-    display: flex;
+.top-section{    
     background-image: url(images/top-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 90px 150px 90px;
     min-height: 100%;
+}
+.section-flex{
+    display: flex;
 }
 .container-width{
     width: 50%;
@@ -17,6 +19,10 @@ section{
     width: 110%;
     margin-left: -50px;
     margin-top: -20px;
+}
+.second-img{
+    width: 40%;
+    padding: 50px 200px;
 }
 h1{
     font-size: 70px;
@@ -44,4 +50,9 @@ a{
     border-radius: 50px;
     font-weight: 900;
     
+}
+.black-heading{
+    color: #262626;
+    text-align: center;
+    padding: 80px;
 }
