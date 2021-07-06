@@ -127,7 +127,10 @@ footer{
 }
 .counter-column{
     width: 33.33%;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     text-align: center;   
+}
+.icon{
+    width: 30%;
 }
