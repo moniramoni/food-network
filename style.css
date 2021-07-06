@@ -34,13 +34,23 @@ h3{
     font-size: 18px;
     font-weight: 300;
 }
+h2{
+    color: #262626;
+    font-size: 32px;
+}
+h2 small{
+    font-size: 22px;
+}
 #white-Para{
     color: whitesmoke;
+    padding-bottom: 40px;
 }
 p{
     color: #262626;
-    font-size: 16px;
-    padding-bottom: 40px;
+    font-size: 16px;    
+}
+ul{
+    padding: 10px 20px 30px;
 }
 a{
     text-decoration: none;
@@ -58,9 +68,12 @@ a{
 }
 .second-section-column1{
     width: 40%;
-    padding: 50px 100px 200px 220px;
+    padding: 50px 100px 200px 210px;
 }
 .second-section-column2{
-    padding: 60px;
+    padding: 50px 120px 60px 60px;
     margin-left: -80px;
+}
+.second-section-column1 img{
+    border-radius: 5px;
 }
