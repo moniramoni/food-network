@@ -82,3 +82,6 @@ a{
     background-repeat: no-repeat;
     background-position: right;
 }
+.recipe-section-container-width{
+    width: 33%;
+}
