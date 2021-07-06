@@ -36,12 +36,12 @@ h3{
 }
 h2{
     color: #262626;
-    font-size: 32px;
+    font-size: 25px;
 }
 h2 small{
-    font-size: 22px;
+    font-size: 18px;
 }
-#white-Para{
+.white-Para{
     color: whitesmoke;
     padding-bottom: 40px;
 }
@@ -52,7 +52,7 @@ p{
 ul{
     padding: 10px 20px 30px;
 }
-a{
+.btn{
     text-decoration: none;
     padding: 10px 30px;
     color: #262626;
@@ -88,9 +88,16 @@ a{
     background-repeat: no-repeat;
     background-position: right;
 }
+.recipe-section{
+    padding: 0px 50px 100px 50px;
+    margin-top: -30px;
+}
 .recipe-column{
     width: 33.33%;
-    padding: 50px;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px rgb(187, 196, 209);
 }
 
 .recipe-column img {
@@ -99,4 +106,15 @@ a{
   
 img.align-self {
     align-self: center;
+}
+.button{
+    text-decoration: none;
+    color: #f9c011;
+    border-radius: 50px;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+    background-color: #262626;
+    padding: 30px 30px 25px 30px;
 }
