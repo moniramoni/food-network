@@ -20,10 +20,7 @@ body{
     margin-left: -50px;
     margin-top: -20px;
 }
-.second-img{
-    width: 40%;
-    padding: 50px 200px;
-}
+
 h1{
     font-size: 70px;
     line-height: .3em;
@@ -37,22 +34,33 @@ h3{
     font-size: 18px;
     font-weight: 300;
 }
-p{
+#white-Para{
     color: whitesmoke;
+}
+p{
+    color: #262626;
     font-size: 16px;
     padding-bottom: 40px;
 }
 a{
     text-decoration: none;
     padding: 10px 30px;
-    color: black;
-    background-image: linear-gradient(#f9c011, #ffff);
+    color: #262626;
+    background-image: linear-gradient(#f9c011, #f57906);
     border-radius: 50px;
-    font-weight: 900;
+    font-weight: 700;
     
 }
 .black-heading{
     color: #262626;
     text-align: center;
     padding: 80px;
+}
+.second-section-column1{
+    width: 40%;
+    padding: 50px 100px 200px 220px;
+}
+.second-section-column2{
+    padding: 60px;
+    margin-left: -80px;
 }
